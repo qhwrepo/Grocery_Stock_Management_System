@@ -1,0 +1,6 @@
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\bin\Debug\MODEL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\bin\Debug\MODEL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\obj\Debug\MODEL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\obj\Debug\MODEL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\MODEL\obj\Debug\MODEL.csproj.ResolveComReference.cache

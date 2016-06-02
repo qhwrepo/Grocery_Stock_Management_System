@@ -1,0 +1,25 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Grocery Stock Management System - Main Window" Height="939.279" Width="777.088"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle x:Name="rec_Main_Top" Fill="#FFFAFAFF" HorizontalAlignment="Left" Height="117" Stroke="Black" VerticalAlignment="Top" Width="769"/>
+        <Rectangle x:Name="rec_Main_Left" Fill="#FFFAFAFF" HorizontalAlignment="Left" Height="114" Margin="0,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="769"/>
+        <Rectangle Fill="#FFFAFAFF" HorizontalAlignment="Left" Height="679" Margin="0,229,0,0" Stroke="Black" VerticalAlignment="Top" Width="769"/>
+        <Button x:Name="button_Main_Add" Content="NEW ITEM" HorizontalAlignment="Left" Margin="190,0,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="117" Click="button_Main_Add_Click"/>
+        <Button x:Name="button_Main_Update" Content="UPDATE" HorizontalAlignment="Left" Margin="306,0,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="117"/>
+        <Button x:Name="button_Main_Delete" Content="DELETE ITEM" HorizontalAlignment="Left" Margin="422,0,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="117"/>
+        <Button x:Name="button_Main_Export" Content="EXPORT TABLE" HorizontalAlignment="Left" Margin="537,0,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="117"/>
+        <Button x:Name="button_Main_Exit" Content="EXIT" HorizontalAlignment="Left" Margin="653,0,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="117" Click="button_Main_Exit_Click"/>
+        <Label x:Name="label_Main_Username" Content="WELCOME!" HorizontalAlignment="Left" Margin="22,19,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label_Main_Time" Content="Time:" HorizontalAlignment="Left" Margin="22,58,0,0" VerticalAlignment="Top" FontSize="14.667"/>
+        <Button x:Name="button_Main_Manage" Content="MANAGE" HorizontalAlignment="Left" Margin="653,58,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.36,-0.439" Height="59" Click="button_Main_Manage_Click" Visibility="Hidden"/>
+        <DataGrid x:Name="dataGrid_Main_Data" HorizontalAlignment="Left" Margin="0,229,0,0" VerticalAlignment="Top" Height="679" Width="769"/>
+
+    </Grid>
+</Window>

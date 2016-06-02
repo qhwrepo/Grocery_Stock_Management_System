@@ -1,0 +1,9 @@
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\BLL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\BLL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\DAL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\MODEL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\DAL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\bin\Debug\MODEL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\obj\Debug\BLL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\BLL\obj\Debug\BLL.pdb

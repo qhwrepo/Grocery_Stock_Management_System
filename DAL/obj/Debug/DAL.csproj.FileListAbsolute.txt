@@ -1,0 +1,7 @@
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\bin\Debug\DAL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\bin\Debug\DAL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\bin\Debug\MODEL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\bin\Debug\MODEL.pdb
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\obj\Debug\DAL.dll
+E:\SoftwareDevelopment\GroceryStockManagementSystem\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,110 @@
+﻿<Window x:Class="UI.Item"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Grocery Stock Management System - Item" Height="437.128" Width="483.257"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanMinimize">
+    <Grid>
+        <Image Source="Resources/gsms_User_Background.jpg" Stretch="Fill"/>
+        <Button x:Name="button_Item_Add" Content="Add" HorizontalAlignment="Left" Margin="125,358,0,0" VerticalAlignment="Top" Width="75" Click="button_Item_Add_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="button_Item_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="280,358,0,0" VerticalAlignment="Top" Width="75" Click="button_Item_Cancel_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label x:Name="label_Item_Name" Content="Item Name" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Code" Content="Item Code" HorizontalAlignment="Left" Margin="20,125,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Brand" Content="Brand" HorizontalAlignment="Left" Margin="258,290,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Number" Content="Number" HorizontalAlignment="Left" Margin="258,235,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Classification" Content="Classification" HorizontalAlignment="Left" Margin="18,180,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Specification" Content="Specification" HorizontalAlignment="Left" Margin="19,290,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Photo" Content="Item Photo" HorizontalAlignment="Left" Margin="258,113,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label_Item_Origin" Content="Place of origin" HorizontalAlignment="Left" Margin="20,235,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Image x:Name="image_Item_Photo" HorizontalAlignment="Left" Height="140" Margin="333,53,0,0" VerticalAlignment="Top" Width="110" Source="Resources/Default_Item.png" Stretch="Fill" >
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <TextBox x:Name="textBox_Item_Name" HorizontalAlignment="Left" Height="23" Margin="119,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="textBox_Item_Specification" HorizontalAlignment="Left" Height="23" Margin="119,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="textBox_Item_Number" HorizontalAlignment="Left" Height="23" Margin="323,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="textBox_Item_Origin" HorizontalAlignment="Left" Height="23" Margin="119,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="textBox_Item_Brand" HorizontalAlignment="Left" Height="23" Margin="323,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="textBox_Item_Code" HorizontalAlignment="Left" Height="23" Margin="119,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <ComboBox x:Name="comboBox_Item_Classification" HorizontalAlignment="Left" Margin="119,185,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox.Effect>
+                <DropShadowEffect/>
+            </ComboBox.Effect>
+        </ComboBox>
+        <Button x:Name="button_Item_Photo" Content="Select" HorizontalAlignment="Left" Margin="352,200,0,0" VerticalAlignment="Top" Width="65" Height="20" RenderTransformOrigin="1.077,0.45" Click="button_Item_Photo_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
